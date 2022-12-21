@@ -1,6 +1,12 @@
+## 3.1.1
+- fixed: CognitoUser.getSession throws TypeError when storage returns null for clockDrift
+
+## 3.1.0
+- feat: try to refresh session if access token is null
+
 ## 3.0.3
 - fixed: clientSecret instead of client secret hash in refresh session
--
+
 ## 3.0.2
 - added: secret hash to sendNewPasswordRequired function
 
